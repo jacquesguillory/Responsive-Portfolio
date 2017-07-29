@@ -279,6 +279,8 @@ a:active {
 
 @media screen and (max-width: 768px) {
 
+
+	/*cannot get text to wrap around picture even though code is same as regular*/
 	#main {
 		width: 600px;
 		margin-top: 50px;
@@ -350,6 +352,104 @@ a:active {
 	}
 }
 
+@media screen and (max-width: 640px) {
+	#main {
+		width: 480px;
+		margin-top: 50px;
+		margin-left: 50px;
+		margin-bottom: 10px;
+		padding: 30px;
+		border: 2px solid #dddddd;
+		float:left;
+		background-color: #ffffff;
+	}
+
+	/*cannot adjust profile pic*/
+	#profile-pic{
+		height: 400px;
+		width: 250px;
+	}
+	p {
+		font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+		float: left;
+		padding: 10px;
+		margin-left: 10px;
+		color: #777777;
+		line-height: 25px;
+	}
+
+	#sidebar {
+		width: 480px;
+		margin-left: 50px;
+		margin-top: 10px;
+		padding: 30px;
+		border: 2px solid #dddddd;
+		float: left;
+		background-color: #ffffff;
+	}
+
+	#contact {
+		width: 480px;
+		margin-top: 50px;
+		margin-left: 50px;
+		margin-bottom: 10px;
+		padding: 30px;
+		border: 2px solid #dddddd;
+		float:left;
+		background-color: #ffffff;
+	}
+
+
+
+
+
+	/*cannot get footer text centered*/
+	footer{
+	    font-size: 16px;
+	    color: violet;
+	    text-align: center;
+	    padding: 25px;
+	    height:60px;
+	    background-color:#666666;
+	    clear: both;
+	    border-top: 7px solid #4aaaa5;
+	    margin-top: 20px;
+	}
+
+
+
+
+
+	/*header*/
+	#header {
+		clear:both;
+		width:640px;
+		height: 95px;
+		background-color: #ffffff;
+		margin: 0;
+		
+	}
+	li {
+		list-style-type: none;
+		font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+		color: grey;
+		display: inline;
+		text-align: center;
+		position: relative;
+		margin: 10;
+		padding: 10px;
+		top: 110px;
+		left: 200px;
+	}
+	h1{
+		width: 640px;
+		left:0;
+		float:left;
+	}
+
+
+
+}
 
 
 
